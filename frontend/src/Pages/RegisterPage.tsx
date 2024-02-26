@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Register } from '../services/user-service';
 
-const LoginPage: React.FC = () => {
+const RegisterPage: React.FC = () => {
     const [formData, setFormData] = useState({
         userName: '',
         fullName: '',
@@ -134,4 +134,4 @@ const LoginPage: React.FC = () => {
 );
 };
 
-export default LoginPage;
+export default RegisterPage;

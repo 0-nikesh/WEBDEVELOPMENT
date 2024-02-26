@@ -37,6 +37,7 @@ cd name
 npm install -D tailwindcss postcss autoprefixer
 
 
+
 npm install react-toastify
 npm install axios
 npm install react-router-dom
